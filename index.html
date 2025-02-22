@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 0 0 10px red;
+        }
+        #video-container {
+            margin-top: 50px;
+        }
+        .glitch {
+            animation: glitch 1s infinite alternate;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px 10px red; }
+            100% { text-shadow: -2px -2px 10px red; }
+        }
+        .video {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glitch">SISTEMA COMPROMETIDO</h1>
+    <p class="glitch">Johan Rodríguez, te estamos observando...</p>
+    <div id="video-container">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v18IeGHrfro" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v18IeGHrfro" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v18IeGHrfro" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
